@@ -52,7 +52,7 @@ def calculate_green_time(vehicle_count):
     elif vehicle_count <= 10:
         return base_green_time
     else:
-        green_time = base_green_time + (vehicle_count * vehicle_multiplier)
+        green_time =(vehicle_count * vehicle_multiplier)
         return green_time
 
 
